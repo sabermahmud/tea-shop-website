@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------------------------------------
+    ---------------- tailwind cdn -------------
+    ------------------------------------------>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-----------------------------------------
+    ---------------- google font --------------
+    ------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-----------------------------------------
+    ----------------- font awesome ------------
+    ------------------------------------------>
+    <script src="https://kit.fontawesome.com/322237ef1b.js" crossorigin="anonymous"></script>
+    <!-----------------------------------------
+    ---------------- favicon link -------------
+    ------------------------------------------>
+     <link rel="shortcut icon" href="images/banner.png" type="image/x-icon">
+    <!-----------------------------------------
+    ---------------- style css ----------------
+    ------------------------------------------>
+    <style>
+        .manrope{
+                font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <!-- title tag -->
+    <title>Tea Shop</title>
+</head>
+
+<body class="manrope p-10 bg-[#F4F4F4]">
+    <header class="flex flex-col lg:flex-row justify-between items-center max-w-7xl mx-auto">
+        <div class="bannerContent w-full">
+            <h1 class="bannerHeading text-7xl font-extrabold my-5">
+                It's good <br>
+                tea time at The <br>
+                Tea House
+            </h1>
+            <p class="my-5 text-lg text-gray-500">
+                Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+            </p>
+            <button class="flex flex-row justify-between bg-gradient-to-r from-amber-400 to-amber-500 rounded-lg p-5 my-5">
+                <p class="mr-5 text-white">Explore More</p>
+                <img src="images/arrow.png" alt="">
+            </button>
+        </div>
+        <div class="bannerImage w-full relative">
+            <img src="images/banner.png" alt="">
+            <div class="rattingBadge bg-white rounded-lg flex flex-row justify-between  items-center p-7 shadow-lg absolute bottom-0 left-10">
+                <div class="mr-4">
+                    <i class="fa-solid fa-star text-amber-300 text-6xl"></i>
+                </div>
+                <div>
+                    <h4 class="font-extrabold text-7xl">5.00</h4>
+                    <p class="text-base">Trust Pilot Rattings</p>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
